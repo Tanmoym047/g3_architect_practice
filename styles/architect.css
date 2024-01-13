@@ -5,7 +5,8 @@
 * {
     font-family: 'Work Sans', sans-serif;
 }
-body{
+
+body {
     margin: 0;
     padding: 0;
 }
@@ -140,7 +141,8 @@ main {
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
 }
-.feature-img img{
+
+.feature-img img {
     height: 90%;
     margin-left: 90px;
 }
@@ -155,11 +157,13 @@ main {
     position: relative;
     bottom: 100px;
 }
-.ten-years-badge h2{
+
+.ten-years-badge h2 {
     font-size: 4rem;
     margin: 0;
 }
-.ten-years-badge p{
+
+.ten-years-badge p {
     font-size: 1.5rem;
 
 }
@@ -208,6 +212,28 @@ main {
     width: 165px;
 }
 
+/* footer section */
+
+footer {
+    width: 65%;
+    border-radius: 8px;
+    background: #FFF4E7;
+    margin: 130px auto;
+    text-align: center;
+    padding: 38px 10%;
+    /* border: 1px solid black; */
+}
+
+footer p {
+    color: #424242;
+    font-size: 1.24rem;
+    font-weight: 400;
+    width: 100%;
+    /* border: 1px solid black; */
+    /* margin: 0 auto; */
+}
+
+
 /* responsive media queries */
 /* mobile devices */
 @media screen and (max-width: 576px) {
@@ -218,7 +244,8 @@ main {
     nav,
     .teams-container,
     .facts-card-container,
-    .sponsors-img-container, .features {
+    .sponsors-img-container,
+    .features {
         flex-direction: column;
     }
 
@@ -235,13 +262,25 @@ main {
     .facts-card-container {
         gap: 20px;
     }
-    .feature-img img{
+
+    .feature-img img {
         width: 100%;
         margin-left: 0;
     }
-    .ten-years-badge{
+
+    .ten-years-badge {
         position: static;
-        max-width: 300px;;
+        max-width: 300px;
+        ;
+    }
+    footer {
+        width: 65%;
+        border-radius: 8px;
+        background: #FFF4E7;
+        margin: 130px auto;
+        text-align: center;
+        padding: 38px 10%;
+        /* border: 1px solid black; */
     }
 }
 
@@ -253,7 +292,8 @@ main {
 
     nav,
     .teams-container,
-    .sponsors-img-container, .features {
+    .sponsors-img-container,
+    .features {
         flex-direction: column;
     }
 }
